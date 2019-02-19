@@ -1,4 +1,4 @@
-package com.codingwithmitch.googlemaps2018.ui;
+package com.mateusrovari.googlemaps2018.ui;
 
 
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-import com.codingwithmitch.googlemaps2018.R;
-import com.codingwithmitch.googlemaps2018.adapters.ImageListRecyclerAdapter;
+import com.mateusrovari.googlemaps2018.R;
+import com.mateusrovari.googlemaps2018.adapters.ImageListRecyclerAdapter;
 
 import java.util.ArrayList;
 

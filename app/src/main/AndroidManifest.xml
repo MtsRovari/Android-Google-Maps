@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.codingwithmitch.googlemaps2018">
+    package="com.mateusrovari.googlemaps2018">
 
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE" />

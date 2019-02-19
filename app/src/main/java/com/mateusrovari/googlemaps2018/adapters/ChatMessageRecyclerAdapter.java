@@ -1,4 +1,4 @@
-package com.codingwithmitch.googlemaps2018.adapters;
+package com.mateusrovari.googlemaps2018.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,9 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.codingwithmitch.googlemaps2018.R;
-import com.codingwithmitch.googlemaps2018.models.ChatMessage;
-import com.codingwithmitch.googlemaps2018.models.User;
+import com.mateusrovari.googlemaps2018.R;
+import com.mateusrovari.googlemaps2018.models.ChatMessage;
+import com.mateusrovari.googlemaps2018.models.User;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;

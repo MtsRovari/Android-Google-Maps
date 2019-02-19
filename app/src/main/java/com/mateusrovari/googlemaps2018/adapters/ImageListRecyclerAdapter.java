@@ -1,4 +1,4 @@
-package com.codingwithmitch.googlemaps2018.adapters;
+package com.mateusrovari.googlemaps2018.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-import com.codingwithmitch.googlemaps2018.R;
+import com.mateusrovari.googlemaps2018.R;
 
 
 import java.util.ArrayList;

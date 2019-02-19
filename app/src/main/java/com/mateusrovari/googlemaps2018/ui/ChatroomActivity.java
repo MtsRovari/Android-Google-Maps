@@ -1,4 +1,4 @@
-package com.codingwithmitch.googlemaps2018.ui;
+package com.mateusrovari.googlemaps2018.ui;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -12,14 +12,15 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.EditText;
 
-import com.codingwithmitch.googlemaps2018.R;
-import com.codingwithmitch.googlemaps2018.UserClient;
-import com.codingwithmitch.googlemaps2018.adapters.ChatMessageRecyclerAdapter;
-import com.codingwithmitch.googlemaps2018.models.ChatMessage;
-import com.codingwithmitch.googlemaps2018.models.Chatroom;
-import com.codingwithmitch.googlemaps2018.models.User;
+import com.mateusrovari.googlemaps2018.R;
+import com.mateusrovari.googlemaps2018.UserClient;
+import com.mateusrovari.googlemaps2018.adapters.ChatMessageRecyclerAdapter;
+import com.mateusrovari.googlemaps2018.models.ChatMessage;
+import com.mateusrovari.googlemaps2018.models.Chatroom;
+import com.mateusrovari.googlemaps2018.models.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
