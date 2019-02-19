@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class UserRecyclerAdapter extends RecyclerView.Adapter<UserRecyclerAdapter.ViewHolder>{
 
-    private ArrayList<User> mUsers = new ArrayList<>();
+    private ArrayList<User> mUsers;
 
 
     public UserRecyclerAdapter(ArrayList<User> users) {
@@ -34,8 +34,8 @@ public class UserRecyclerAdapter extends RecyclerView.Adapter<UserRecyclerAdapte
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
-        ((ViewHolder)holder).username.setText(mUsers.get(position).getUsername());
-        ((ViewHolder)holder).email.setText(mUsers.get(position).getEmail());
+        holder.username.setText(mUsers.get(position).getUsername());
+        holder.email.setText(mUsers.get(position).getEmail());
     }
 
     @Override

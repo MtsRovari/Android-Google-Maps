@@ -42,15 +42,21 @@ public class ChatMessageRecyclerAdapter extends RecyclerView.Adapter<ChatMessage
     public void onBindViewHolder(@NonNull final ViewHolder holder, final int position) {
 
 
+        /**
+         * if user equals session user set username text color green
+         */
         if(FirebaseAuth.getInstance().getUid().equals(mMessages.get(position).getUser().getUser_id())){
-            ((ViewHolder)holder).username.setTextColor(ContextCompat.getColor(mContext, R.color.green1));
+            holder.username.setTextColor(ContextCompat.getColor(mContext, R.color.green1));
         }
+        /**
+         * else set username text color blue
+         */
         else{
-            ((ViewHolder)holder).username.setTextColor(ContextCompat.getColor(mContext, R.color.blue2));
+            holder.username.setTextColor(ContextCompat.getColor(mContext, R.color.blue2));
         }
 
-        ((ViewHolder)holder).username.setText(mMessages.get(position).getUser().getUsername());
-        ((ViewHolder)holder).message.setText(mMessages.get(position).getMessage());
+        holder.username.setText(mMessages.get(position).getUser().getUsername());
+        holder.message.setText(mMessages.get(position).getMessage());
     }
 
 
