@@ -45,7 +45,7 @@ public class ImageListRecyclerAdapter extends RecyclerView.Adapter<ImageListRecy
         Glide.with(mContext)
                 .setDefaultRequestOptions(requestOptions)
                 .load(mImages.get(position))
-                .into(((ViewHolder)holder).image);
+                .into(holder.image);
     }
 
     @Override

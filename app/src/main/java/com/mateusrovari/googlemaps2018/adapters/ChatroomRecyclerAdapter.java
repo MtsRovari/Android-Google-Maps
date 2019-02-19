@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class ChatroomRecyclerAdapter extends RecyclerView.Adapter<ChatroomRecyclerAdapter.ViewHolder>{
 
-    private ArrayList<Chatroom> mChatrooms = new ArrayList<>();
+    private ArrayList<Chatroom> mChatrooms;
     private ChatroomRecyclerClickListener mChatroomRecyclerClickListener;
 
     public ChatroomRecyclerAdapter(ArrayList<Chatroom> chatrooms, ChatroomRecyclerClickListener chatroomRecyclerClickListener) {
@@ -35,7 +35,7 @@ public class ChatroomRecyclerAdapter extends RecyclerView.Adapter<ChatroomRecycl
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        ((ViewHolder)holder).chatroomTitle.setText(mChatrooms.get(position).getTitle());
+        holder.chatroomTitle.setText(mChatrooms.get(position).getTitle());
     }
 
     @Override
