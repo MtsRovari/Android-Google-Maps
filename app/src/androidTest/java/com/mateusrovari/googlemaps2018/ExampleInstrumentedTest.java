@@ -1,4 +1,4 @@
-package com.codingwithmitch.googlemaps2018;
+package com.mateusrovari.googlemaps2018;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.codingwithmitch.googlemaps2018.adapters;
+package com.mateusrovari.googlemaps2018.adapters;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-import com.codingwithmitch.googlemaps2018.R;
-import com.codingwithmitch.googlemaps2018.models.User;
+import com.mateusrovari.googlemaps2018.R;
+import com.mateusrovari.googlemaps2018.models.User;
 
 import java.util.ArrayList;
 

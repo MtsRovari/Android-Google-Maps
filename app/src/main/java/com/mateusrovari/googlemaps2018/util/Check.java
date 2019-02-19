@@ -1,4 +1,4 @@
-package com.codingwithmitch.googlemaps2018.util;
+package com.mateusrovari.googlemaps2018.util;
 
 public class Check {
 
